@@ -1,10 +1,12 @@
+
+
 body {
     background-image: linear-gradient(to top, #000000, #3803AA);
     background-repeat: no-repeat;
     color: #FFFFFF;
-    font-family: "Lucida Console", Courier, monospace;
-    
-    font-size: 13px;
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 header {
@@ -24,6 +26,7 @@ header a:hover {
 }
 
 h1 {
+    font-family: 'Antic Slab', Times, serif;
     font-size: 40px;
 }
 
@@ -39,13 +42,25 @@ nav {
     
 }
 
+.fa-cat {
+    font-size: 40px;
+    padding: 10px;
+}
+
 section {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #fff;
+    align-items: center;
 }
 
 article {
-    padding-bottom: 2rem;
+    padding-bottom: 1em;
 }
 
 h2 {
